@@ -1,0 +1,23 @@
+步驟:
+	1.先下載Sourcetree 或者其他相似軟體
+	2.然後進入後clone把git上的網址 https或者ssh的clone下來
+		┗這邊的本機端位置以後就是檔案上傳下載的位置(因該可以更改?)
+	3.進入ターミナル後開始輸入以下指令
+		┗echo "# Git_description" >> README.md
+		┗git init
+		┗git add README.md
+		┗git commit -m "first commit"
+		┗git remote add origin https://github.com/lk3h5yr/Git_description.git
+		┗git push -u origin master
+	4.以上步驟結束以後就可以把想要的資料複製到本機端的上傳下載資料夾內
+	5.查看新增進來的檔案 
+		┗git status (紅字顯示-代表github上還沒有)
+	6.把想要上傳的檔案新增進去
+		┗git add [file_name]
+	7.再次確認檔案是否有新增成功
+		┗git status (綠字顯示-代表新增成功)
+	8.Commit 
+		┗git commit -m "內容隨意輸入"
+	9.push
+		┗git push 
+	10.完成
