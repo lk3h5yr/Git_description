@@ -1,0 +1,11 @@
+----------request Url ----------
+http://127.0.0.1:8080/evmsggw/newiviweb98/GWNewIVINaviInfoServlet
+----------request Data ---------
+vin_no=4000F806394E11EA5405C0A5C2D4D10F&
+---Response Info Begin---
+Status Code: 404
+response message:
+Not Found
+---Response Info End---
+----------response data ---------
+null

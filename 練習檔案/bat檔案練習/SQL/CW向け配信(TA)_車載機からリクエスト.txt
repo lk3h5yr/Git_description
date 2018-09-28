@@ -1,0 +1,53 @@
+CW向け配信(TA)_車載機からリクエスト
+
+SELECT * FROM MSG_ORDER WHERE REGION_CODE='99'
+
+SELECT * 
+FROM CTRL_VIN ctrl ,
+    CTRL_CANCEL_FILE_INFO cancel 
+WHERE 
+    ctrl.VIN_NO='TPN-TCU00001'
+    AND ctrl.region_Code = 99 
+    AND cancel.msg_Type='CWR' 
+    AND ctrl.start_Date <='2013-06-08 14:59:59' 
+    AND '2013-06-08 14:59:59' <= ctrl.end_Date
+    AND ctrl.rcl_Flg=1 AND cancel.msg_File_Name is not null
+    AND ctrl.ctrl_List_Name = cancel.ctrl_List_File_NAME 
+ORDER BY 
+    ctrl.start_Date asc, 
+    cancel.msg_Ver asc, 
+    cancel.ctrl_Ver desc
+
+
+
+SELECT * 
+FROM CTRL_VIN ctrl ,
+    CTRL_CANCEL_FILE_INFO cancel 
+WHERE 
+    ctrl.VIN_NO='FRK-TCU00026'
+    AND ctrl.region_Code = 99 
+    AND cancel.msg_Type='MNT' 
+    AND ctrl.ctrl_List_Name = cancel.ctrl_List_File_NAME     
+    AND ctrl.start_Date <='2013-11-08 14:59:59' 
+    AND '2013-11-08 14:59:59' <= ctrl.end_Date
+    AND cancel.msg_File_Name is not null
+ORDER BY 
+    ctrl.start_Date asc, 
+    cancel.msg_Ver asc, 
+    cancel.ctrl_Ver desc
+
+
+
+
+SELECT VIN_NO,START_DATE,END_DATE,DELIVERY_CNT,
+       CTRL_LIST_NAME,DELIV_CNT,DELIV_DATE,UPD_DATE 
+FROM CTRL_VIN 
+WHERE VIN_NO='FRK-TCU00026' 
+AND CTRL_LIST_NAME IN ('CtrlList_MNT_9887_99_0002_001.csv','CtrlList_MNT_9888_99_0002_001.csv','CtrlList_MNT_9889_99_0002_001.csv','CtrlList_MNT_9884_99_0001_001.csv','CtrlList_MNT_9885_99_0001_001.csv','CtrlList_MNT_9886_99_0001_001.csv')
+
+  (VIN_NO='FRK-TCU00026' 
+   AND CTRL_LIST_NAME='CtrlList_MNT_9887_99_0002_001.csv') 
+  OR 
+  (VIN_NO='JN1AZ0CP5B1003516' A
+   AND CTRL_LIST_NAME='CtrlList_INF_9255_01_0001_002.csv'
+  );

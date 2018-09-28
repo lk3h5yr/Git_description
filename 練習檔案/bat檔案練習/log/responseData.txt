@@ -1,0 +1,9 @@
+----------request Url ----------
+http://127.0.0.1:8080/evmsggw/EVGWMLOServlet
+---Response Info Begin---
+Status Code: 200
+Response message:
+null
+---Response Info End---
+----------response data ---------
+

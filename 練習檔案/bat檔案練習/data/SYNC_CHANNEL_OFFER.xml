@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<reqservice type="" >	
+	<!-->HV37-900501<-->
+	<param key="vin_no" value="6a828842f2354ec670260568bde2c2e7"/>
+	<!-->af-93605 <-->
+	<param key="userid" value="dbbea9ca5becf4f3"/>
+	<param key="ch_no" value="9708"/>
+</reqservice>

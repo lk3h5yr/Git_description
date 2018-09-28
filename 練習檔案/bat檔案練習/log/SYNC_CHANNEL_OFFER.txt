@@ -1,0 +1,6 @@
+----------request Url ----------
+http://127.0.0.1/evmsggw/GWCWNaviSYNCServlet
+----------request Data ---------
+vin_no=6a828842f2354ec670260568bde2c2e7&ch_no=9708&userid=dbbea9ca5becf4f3&
+----------response data ---------
+null

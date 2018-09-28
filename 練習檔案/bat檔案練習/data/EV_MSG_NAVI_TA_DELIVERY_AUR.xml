@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reqservice type="" >
+	<param key="odometer" value="200"/>
+	<param key="navi_set_dst_d" value="km"/>
+	<!-->1056HP000100<-->
+	<param key="adpno" value="1d182b066817792f821d1ac2a7f9f6ed"/>
+	<param key="user" value="owner_097"/> 
+</reqservice>

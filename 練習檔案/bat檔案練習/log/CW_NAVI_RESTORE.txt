@@ -1,0 +1,13 @@
+----------request Url ----------
+http://127.0.0.1:8080/evmsggw/GWCWNaviStoreServlet
+----------request Data ---------
+ch_no=ch_no_009&adpno=1be5041cf108913fb05a08320d91b08f&vin=23f49592f88b18e0f2cb096b23931e37&userid=9515eac75c543b9ef9fbee67c9643874&
+---Response Info Begin---
+Status Code: 200
+response message:
+null
+---Response Info End---
+----------result=---------------
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>ナビ承�?</title><description></description><language>ja</language><item><title>承り登録完�?</title><description>承り登録完�?しました�?</description></item></channel></rss>
+----------response data ---------
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>ナビ承�?</title><description></description><language>ja</language><item><title>承り登録完�?</title><description>承り登録完�?しました�?</description></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reqservice type="" >
+	<!-->SYS-CW-WEB-02<-->
+	<param key="vin" value="23f49592f88b18e0f2cb096b23931e37"/>
+	<!-->hpadmin99<-->
+	<param key="userid" value="9515eac75c543b9ef9fbee67c9643874"/>
+	<param key="ch_no" value="ch_no_009"/>
+	<!-->0510HP0001<-->
+	<param key="adpno" value="1be5041cf108913fb05a08320d91b08f"/>
+</reqservice>

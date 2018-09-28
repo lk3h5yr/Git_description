@@ -1,0 +1,77 @@
+----------request Url ----------
+http://127.0.0.1:8080/evmsggw/newivinavi/GWNewIVINaviInfoServlet
+----------request Data ---------
+vin_no=ABC-TEST-WEB-08&ch_no=9699&adpno=1027HP000100&userid=lk3h5yr&region_code=08&
+---Response Info Begin---
+Status Code: 200
+response message:
+null
+---Response Info End---
+----------result=---------------
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:carwings="http://www.nissan.co.jp/dtd/carwings.dtd">
+<channel>
+<title>NISSAN Topics</title>
+<link>http://www.nissan.co.jp</link>
+<description>We will deliver the latest information of Nissan Motor Co.. </description>
+<copyright>Copyright NISSAN MOTOR CO.,LTD.  All Rights Reserved.</copyright>
+<item>
+<title>service check(Msg_INF_9999_08) for ABC-TEST-WEB-08</title>
+<carwings:readtitle>service check(Msg_INF_9999_08) for ABC-TEST-WEB-08</carwings:readtitle>
+<description>
+VIN : ABC-TEST-WEB-08
+CtrilList File: CtrlList_INF_9999_08_0001_003.csv
+</description>
+<carwings:readtext>..........</carwings:readtext>
+<carwings:data>
+  <![CDATA[<body>
+  
+  </body>]]>
+</carwings:data>
+<carwings:lat></carwings:lat>
+<carwings:lon></carwings:lon>
+<carwings:tel></carwings:tel>
+
+
+
+<link></link>
+<guid></guid>
+<category>INF</category>
+<pubDate>Thu, 20 Sep 2018 02:44:22 0</pubDate>
+</item>
+</channel> 
+</rss>
+----------response data ---------
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:carwings="http://www.nissan.co.jp/dtd/carwings.dtd">
+<channel>
+<title>NISSAN Topics</title>
+<link>http://www.nissan.co.jp</link>
+<description>We will deliver the latest information of Nissan Motor Co.. </description>
+<copyright>Copyright NISSAN MOTOR CO.,LTD.  All Rights Reserved.</copyright>
+<item>
+<title>service check(Msg_INF_9999_08) for ABC-TEST-WEB-08</title>
+<carwings:readtitle>service check(Msg_INF_9999_08) for ABC-TEST-WEB-08</carwings:readtitle>
+<description>
+VIN : ABC-TEST-WEB-08
+CtrilList File: CtrlList_INF_9999_08_0001_003.csv
+</description>
+<carwings:readtext>..........</carwings:readtext>
+<carwings:data>
+  <![CDATA[<body>
+  
+  </body>]]>
+</carwings:data>
+<carwings:lat></carwings:lat>
+<carwings:lon></carwings:lon>
+<carwings:tel></carwings:tel>
+
+
+
+<link></link>
+<guid></guid>
+<category>INF</category>
+<pubDate>Thu, 20 Sep 2018 02:44:22 0</pubDate>
+</item>
+</channel> 
+</rss>

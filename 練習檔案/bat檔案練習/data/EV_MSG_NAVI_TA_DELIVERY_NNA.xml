@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reqservice type="" >
+	<param key="odometer" value="200"/>
+	<param key="navi_set_dst_d" value="mile"/>
+	<param key="adpno" value="0F13FB3C0E7B91FBFC95261ADB21E878"/>
+	<param key="user" value="hpadmin3"/>
+</reqservice>

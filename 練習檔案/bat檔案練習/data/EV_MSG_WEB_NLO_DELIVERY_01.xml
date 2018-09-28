@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reqservice type="" >
+	<param key="vin_no" value="b444d593b7c0be3ab4749d9a30e88fef"/>
+	<param key="odometer" value="10"/>
+	<param key="navi_set_dst_d" value="km"/>
+</reqservice>
